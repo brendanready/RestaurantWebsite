@@ -1,0 +1,981 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+nav.top-nav {
+  float: left;
+  margin: 0 0 0 0;
+  width: 100%;
+  padding: 5px 0;
+  background-color: black;
+}
+
+.social {
+  float: left;
+  font-size: 1.2em;
+  margin: 0 5%;
+}
+
+.social a {
+  color: white;
+    padding: 12px 8px;
+}
+
+.social a:hover {
+    opacity: 0.9;
+}
+
+.audience {
+  float: right;
+    text-align: right;
+    color: white;
+    margin: 0 1%;
+    font-family: 'Lato', sans-serif;
+}
+
+.audience a {
+  font-weight: 800;
+  padding: 12px 8px;
+  color: gray;
+}
+
+.audience span {
+  color: gray;
+}
+
+header {
+  float: left;
+  margin: 0;
+  padding: 5px 0;
+  width: 100%;
+    background: #fff;
+    opacity: 0.98;
+}
+
+.logo {
+    font-family: 'Lobster', cursive;
+    color: maroon;
+}
+
+header .logo {
+    text-align: left;
+    float: left;
+    margin-left: 5%;
+    width: 45%;
+
+}
+
+header .main-nav {
+   float: right;
+  width: 45%;
+    margin-right: 5%;
+    text-align: right;
+    padding-top: 20px;
+    
+}
+
+.main-nav a {
+    padding: 20px;
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+.main-nav a:hover {
+    color:black;
+}
+
+h1 {
+  margin: 15px 15px;
+    font-size: 3em;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 1.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+
+
+/* LINKS */
+a, a:hover {
+  color: maroon;
+    text-decoration: none;
+}
+
+/* nav link */
+nav a {
+  color: maroon;
+}
+
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #fff;
+    text-decoration: none;
+}
+
+.slogan {
+    width: 450px;
+    height: 270px;
+    float: right;
+    font-style: italic;
+    color: maroon;
+    margin-top: 350px;
+    margin-right: 10px;
+    padding-top: 150px;
+    background: url(../images/donovans-logo.png) no-repeat 130px 70px;
+}
+
+.scrolldown {
+    width: 100%;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 700px;
+    display: block;
+    
+}
+
+.scrolldown i {
+    color: white;
+    font-size: 3em;
+}
+
+
+.slogan h1 {
+    font-weight: 300;
+    color: maroon;
+    font-size: 4em;
+}
+
+.wrapper {
+    background: url(../images/groovepaper_@2X.png);
+    opacity: 0.9;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    margin: 100px auto;
+}
+
+
+.box {
+    padding: 30px;
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+    border: 1px solid maroon;
+    position: relative;
+    top: 50px;
+}
+
+.box h2 {
+    font-size: 2.3em;
+    color: maroon;
+    font-weight: 800;
+}
+
+.box p {
+    padding-top: 30px;
+    font-size: 1.2em;
+    color: maroon;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.twoa {
+    
+}
+
+.twob h2, .twob p {
+    color: black;
+}
+
+.twob {
+    border: 1px solid black;
+}
+
+.twob .btn  {
+    background-color: black;
+}
+
+.threea {
+    height: 450px;
+}
+
+.threeb {
+   height: 350px; 
+}
+
+.btn {
+  color: #fff;
+  background-color: maroon;
+}
+
+.wrapper2 {
+    background: white;
+    opacity: 0.75;
+    width: 400px;
+    height: 200px;
+    margin: 100px auto;
+    color: maroon;
+}
+
+.box2 {
+    padding: 20px;
+    margin: 0 auto;
+    width: 350px;
+    height: 120px;
+    border: 1px solid maroon;
+    position: relative;
+    top: 40px;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 100
+    
+}
+
+.wrapper3 {
+    background: white;
+    opacity: 0.9;
+    width: 400px;
+    height: 550px;
+    margin: 100px auto;
+    color: maroon;
+}
+
+.box3 {
+    padding: 20px;
+    margin: 0 auto;
+    width: 330px;
+    height: 120px;
+    border: 1px solid maroon;
+    position: relative;
+    top: 40px;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 100
+}
+
+.box3 p {
+    margin-top: 70px;
+    font-size: 0.85em;
+    font-weight: 300;
+    
+}
+
+.image1 {
+    background: url('../images/food-arr-2.jpg') center center no-repeat;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    min-height: 800px;
+    background-size: cover;
+    background-position: fixed;
+    z-index: -1;
+}
+
+.image2 {
+    background: url('../images/gaslamp-wine.jpg') center center no-repeat;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    min-height: 800px;
+    top:0px;
+    left: 0;
+    background-position: fixed;
+    clear: both;
+    border-top: 15px solid black;
+}
+
+.image3 {
+    background: url('../images/filet%20mignon01_d.jpg') center center no-repeat;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    min-height: 800px;
+    top:0px;
+    left: 0;
+    background-position: fixed;
+    clear: both;
+    border-top: 15px solid tan;
+}
+
+.image4 {
+    background: url('../images/gen-dining(26).jpg') center center no-repeat;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    min-height: 800px;
+    top:0px;
+    left: 0;
+    background-position: fixed;
+    clear: both;
+    border-top: 15px solid maroon;
+}
+
+.menupage {
+    background: url(../images/food-arr-3.jpg) center center no-repeat;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    min-height: 800px;
+    top:0px;
+    left: 0;
+    background-position: fixed;
+    clear: both;
+    z-index: -1;
+}
+
+.menulist {
+    width: 100%;
+    height: 500px;
+    background: #EFF0F4;
+}
+
+.menulist ul {
+      list-style: none;
+}
+
+.menuitems {
+    background: url(../images/lightpaperfibers_@2X.png);
+    z-index: 10;
+    height: 300px;
+    opacity: .9;
+    border-bottom: solid maroon 10px;
+    font-size: 2.5em;
+    color: maroon;
+    
+}
+
+.menuitems:nth-of-type(2) {
+    border-bottom-left-radius: 10px;
+}
+
+.menuitems:nth-of-type(3) {
+    border-right: solid maroon 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 5px;
+}
+
+    .menuinfo {
+        margin-left: 500px;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+.facility {
+    background: url(../images/facility2.jpg);
+}
+
+.steaks {
+        background: url(../images/steak.jpg);
+}
+
+.drinks {
+        background: url(../images/drinks.jpg);
+}
+
+.steakmenu {
+    font-size: 1.5em;
+}
+
+.steakmenu h2 {
+    text-decoration: underline;
+    padding: 20px 0;
+}
+
+.steakmenu p {
+    padding-bottom: 40px;
+}
+
+.steakmenu i {
+    font-style: italic;
+}
+
+
+/* FORM STYLES */
+
+form {
+    margin-top: 90px;
+    padding-top: 90px;
+    
+}
+
+input {
+    padding:5px;
+}
+
+input[type="text"], input[type="tel"], input[type="email"] {
+    width: 380px;
+    height: 30px;
+    padding: 2px;
+}
+
+input:required {
+			border:1px solid red;
+			border-radius: 4px;
+}
+
+input:valid {
+	border-color: green;
+}
+
+.title {
+	float: left;
+	width: 300px;
+	height: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+}
+
+.field {
+	float: left;
+}
+
+p {
+	clear: both;
+}
+
+p:only-of-type {
+    font-style: italic;
+}
+
+select, textarea {
+    border-radius: 4px;
+    padding: 7px;
+}
+
+select {
+    width: 380px;
+}
+
+textarea {
+    width: 365px;
+}
+
+input[type="submit"] {
+    background-color: white;
+    width: 157px;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    padding: 11px;
+    font-size: 0.79em;
+    color: #555555;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:959px) {
+
+main {
+	padding: 0;
+}
+
+#content {
+	width: 90%;
+}
+
+p:only-of-type {
+    padding: 20px 0;
+}
+
+form {
+	width: 100%;
+}
+
+input[type="text"], input[type="tel"], input[type="email"] {
+    width: 350px;
+    height: 30px;
+    padding: 8px;
+		font-size: 1.1em;
+}
+
+.title {
+	width: 200px;
+	font-weight: bold;
+	font-size: 1.05em;
+}
+
+select {
+	width: 368px;
+	padding: 10px;
+	font-size: 1em;
+}
+
+textarea {
+    width: 352px;
+		height: 80px;
+		font-size: 1.5em;
+}
+
+input[type="submit"] {
+    width: 190px;
+		height: 50px;
+}
+
+hr {
+	margin: 20px 0;
+}
+p.submit {
+	text-align: center;
+}
+
+}
+
+@media screen and (max-width:767px) {
+
+	input[type="text"], input[type="tel"], input[type="email"] {
+	    width: 50%;
+	    height: 30px;
+	    padding: 8px;
+			font-size: 1.2em;
+	}
+
+	label {
+		font-size: 1.1em;
+	}
+
+	.title {
+		width: 35%;
+		height: 30px;
+		font-size: 0.95em;
+	}
+
+	select {
+		width: 268px;
+		padding: 10px;
+	}
+
+	input[type="radio"], input[type="checkbox"] {
+		margin-bottom: 21px;
+		padding: 8px;
+		border-color: black;
+	}
+
+	textarea {
+	    width: 252px;
+			height: 80px;
+			font-size: 1.2em;
+	}
+
+	input[type="submit"] {
+	    width: 190px;
+			height: 50px;
+	}
+
+	hr {
+		margin: 30px 0;
+	}
+}
+
+@media screen and (max-width:459px) {
+
+	p:only-of-type {
+		padding: 30px 0 20px;
+	}
+
+		input[type="text"], input[type="tel"], input[type="email"] {
+		    width: 90%;
+		    height: 30px;
+		    padding: 8px;
+		}
+
+		.title {
+			width: 100%;
+			height: 50px;
+			font-weight: bold;
+			font-size: 1.05em;
+		}
+
+		select {
+			width: 96%;
+			padding: 10px;
+			font-size: 1.1em;
+		}
+
+		textarea {
+		    width: 90%;
+				height: 80px;
+		}
+
+hr {
+	margin: 20px 0;
+}
+
+}
+
+.redbar {
+    width:100%;
+    height:160px;
+    background-color: maroon;
+    border-top: white solid 70px;
+    clear:both;
+    padding-top:20px;
+    top:0px;
+}
+
+.redbar ul {
+    list-style: none;
+    float: none;
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+
+}
+
+.redbar li {
+  display: inline-block;
+}
+
+.redbar a {
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: maroon;
+}
+
+footer a {
+    color: maroon;
+    font-weight: 800;
+    font-size: 2em;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+}
+
+footer a:hover {
+    color: black;
+}
+.redbar a:hover {
+    color: white;
+    opacity: 0.8;
+}
+
+footer p.logo {
+    color: maroon;
+    font-size: 3em;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+footer p.footer {
+    margin-bottom: 30px;
+}
+
+
+main {
+    margin-top: 0px;
+}
+
+
+main.container {
+        width: 95%;
+}
+
+.nav-tabs a {
+    font-weight: bold;
+}
+
+section.col-md-7 ul li {
+    padding-bottom: 20px;
+}
+
+section h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.8em;
+}
+
+#testimonial1, #testimonial2 {
+    margin-top: 5px;
+    background-color: #f7f7f9;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+
+@media (max-width: 767px) {
+  .navbar {
+    width: 100%;
+    margin: 0;
+    padding: 0 10px;
+    border-radius: 0px;
+  }
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+        .slicknav_menu {
+	display:none;
+}
+
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 767px) {
+    
+    .slicknav_menu {
+	display:none;
+}
+    
+}
+
+
+@media screen and (max-width: 40em) {
+	.js #menu {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display:block;
+	}
+}
+
+.slicknav_menu {
+    background: #fff;
+    color: maroon;
+    background-image: url(../images/donovans-logo.png) repeat-x;
+}
+
+.slicknav_btn {
+    background-color: #fff;
+}
+
+.slicknav_menu .slicknav_menutxt {
+    color: maroon;
+}
+
+.slicknav_nav {
+    color: maroon;
+}
+
+.slicknav_nav .slicknav_row:hover {
+    color: maroon;
+}
+
+.slicknav_nav a {
+    color: maroon;
+}
+
+.slicknav_brand {
+    color: maroon;
+}
+
+.slicknav_menu .slicknav_icon-bar {
+    background-color: maroon; }
+
+/* TABLET PORTRAIT */
+@media screen and (max-width:768px) {
+    
+    header .logo {
+         width: 30%;
+    }
+    
+    .main-nav a {
+     font-size: 1.2em;
+        display: inline;
+        padding: 10px;
+        font-weight: 800;
+    }
+    
+    header .main-nav {
+         width: 60%;
+    }
+    
+    .scrolldown {
+        margin-top: 22px;
+    }
+    
+    .menuitems, .menuitems:nth-of-type(3) {
+        border: none;
+    }
+    
+    .menuinfo {
+        display: none;
+    }
+    
+    
+}
+
+/* SMARTPHONE PORTRAIT */
+@media screen and (max-width:320px) {
+    .main-nav {
+        display: none;
+    }
+    
+    .top-nav {
+        display:block
+        width: 100%;
+        text-align: center;
+    }
+    
+    .top-nav span {
+        display: none;
+    }
+    
+    .social {
+        width: 100%;
+        display: block
+        text-align: center;
+        margin: 0;
+    }
+    
+    .audience a {
+        font-size: 4.4em;
+        display: none;
+    }
+     
+    header {
+        background: white;
+        color: white;
+        text-align: center;
+        height: 120px;
+        opacity: 0.9;
+    }
+        
+    .top-nav a {
+        font-size: 1.2em;
+    }
+        
+    .logo {
+        width: 100%;
+        height: 150px;
+        display: block;
+        text-align: center;
+    }
+    
+    .logo h1 {
+        font-size: 3.5em;
+        padding-left: 25px;
+    }
+    
+    .logo h2 {
+        font-size: 1.3em;
+      
+    }
+    
+    .slogan {
+    width: 100%;
+    height: 150px;
+    font-style: italic;
+    color: maroon;
+    margin-top: 150px;
+    padding: 0;
+    background: white;
+    opacity: .9;
+}
+    
+    .slogan h1 {
+        font-size: 3em;
+
+    }
+        
+    .wrapper {
+        width: 100%;
+        height: 550px;
+    }
+    
+    .box {
+        width: 95%;
+        height: 450px;
+    }
+    
+    .wrapper2 {
+        margin-top: 170px;
+        width: 100%;
+        height: 170px;
+    }
+    
+    .box2 {
+        margin-top: 50px;
+        padding-top: 50px;
+        width: 95%;
+        height: 150px;
+        font-size: 2em;
+        top: 10px;
+    }
+    
+    .wrapper3 {
+        margin-top: 170px;
+        width: 100%;
+        height: 170px;
+    }
+    
+    .box3 {
+        margin-top: 50px;
+        padding-top: 50px;
+        width: 95%;
+        height: 150px;
+        font-size: 2em;
+        top: 10px;
+    }
+    
+    .threea {
+        height: 630px;
+    }
+    
+    .threeb {
+        height: 530px;
+    }
+    
+    
+    footer .logo {
+        height: 80px;
+    }
+    
+    footer a {
+        font-size: 1.3em;
+         display: block;
+    }
+
+}
+
+@media print {
+    header nav, footer, img {
+        display: none;
+}
+}
